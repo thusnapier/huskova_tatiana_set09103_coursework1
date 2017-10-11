@@ -9,8 +9,19 @@ def page_not_found(error):
   return "Page not found!", 404
 
 @app.route("/")
-def title():
-  return "Private accommodation for students in Edinburgh."
+def homepage():
+  return """
+<!DOCTYPE html>
+<head>
+  <title>Coursework 1</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body style="width: auto; margin: auto;">
+  <h1>Private accommodation for students in Edinburgh.</h1>
+  <h2>Arran House</h2>
+  <img src="">
+</body>
+"""
 
 @app.route('/arran_house/')
 def arran_house():
