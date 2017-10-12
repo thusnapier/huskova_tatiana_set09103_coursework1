@@ -12,24 +12,132 @@ def page_not_found(error):
 def homepage():
   return """
 <!DOCTYPE html>
-<head>
-  <title>Coursework 1</title>
+<heIad>
+  <title>Coursework 1 - 40207956</title>
   <link rel="stylesheet" href="./css/style.css">
 </head>
 <body style="width: auto; margin: auto;">
   <h1>Private accommodation for students in Edinburgh.</h1>
   <h2>Arran House</h2>
-  <img src="https://github.com/thusnapier/huskova_tatiana_set09103_coursework1/blob/master/static/arran_house.jpg">
+  <img src="static/arran_house.jpg" style="width:300px;height:200px;">
+  <h2>Canal Point</h2>
+  <img src="static/canal_point.jpg" style="width:300px;height:200px;">
+  <h2>Gateaway Apartments</h2>
+  <img src="static/gateaway_apartments.jpg" style="width:300px;height:200px;">
+  <h2>Haddington Place</h2>
+  <img src="static/haddington_place.jpg" style="width:300px;height:200px;">
+  <h2>iQ Fountainbridge</h2>
+  <img src="static/iqfountainbridge.jpg" style="width:300px;height:200px;">
+  <h2>iQ Grove</h2>
+  <img src="static/iqgrove.jpg" style="width:300px;height:200px;">
+  <h2>McDonald Road</h2>
+  <img src="static/mcdonald.jpg" style="width:300px;height:200px;">
+  <h2>Mill House</h2>
+  <img src="static/mill_house.jpg" style="width:300px;height:200px;">
+  <h2>New Park</h2>
+  <img src="static/new_park.jpg" style="width:300px;height:200px;">
+  <h2>Nido Haymarket</h2>
+  <img src="static/nido.jpg" style="width:300px;height:200px;">
+  <h2>Potterrow</h2>
+  <img src="static/potterrow.jpg" style="width:300px;height:200px;">
+  <h2>Pure Elliott House</h2>
+  <img src="static/pure_elliott.jpg" style="width:300px;heigth:200px;">
+  <h2>Student Castle</h2>
+  <img src="static/student_castle.jpg" style="width:300px;height:200px;">
 </body>
 """
 
-@app.route('/arran_house/')
+@app.route("/arran_house/")
 def arran_house():
   start = '<img src="'
   url = url_for('static', filename='arran_house.jpg')
   end = '">'
   return start+url+end, 200
-  
-if __name__ == "__main__"
+
+@app.route("/canal_point/")
+def canal_point():
+  start = '<img src="'
+  url = url_for('static', filename='canal_point.jpg')
+  end = '">'
+  return start+url+end, 200
+
+@app.route("/gateaway/")
+def gateaway():
+  start = '<img src="'
+  url = url_for('static', filename='gateaway_apartments.jpg')
+  end = '">'
+  return start+url+end, 200
+
+@app.route("/haddington/")
+def haddington():
+  start = '<img src="'
+  url = url_for('static', filename='haddington_place.jpg')
+  end = '">'
+  return start+url+end, 200
+
+@app.route("/iqfountain/")
+def iqfountain():
+  start = '<img src="'
+  url = url_for('static', filename='iqfountainbridge.jpg')
+  end = '">'
+  return start+url+end, 200
+
+@app.route("/iqgrove/")
+def iqgrove():
+  start = '<img src="'
+  url = url_for('static', filename='iqgrove.jpg')
+  end = '">'
+  return start+url+end, 200
+
+@app.route("/mcdonald/")
+def mcdonald():
+  start = '<img src="'
+  url = url_for('static', filename='mcdonald.jpg')
+  end = '">'
+  return start+url+end, 200
+
+@app.route("/millhouse/")
+def millhouse():
+  start = '<img src="'
+  url = url_for('static', filename='mill_house.jpg')
+  end = '">'
+  return start+url+end, 200
+
+@app.route("/newpark/")
+def newpark():
+  start = '<img src="'
+  url = url_for('static', filename='new_park.jpg')
+  end = '">'
+  return start+url+end, 200
+
+@app.route("/nido/")
+def nido():
+  start = '<img src="'
+  url = url_for('static', filename='nido.jpg')
+  end = '">'
+  return start+url+end, 200
+
+@app.route("/potterrow/")
+def potterrow():
+  start = '<img src="'
+  url = url_for('static', filename='potterrow.jpg')
+  end = '">'
+  return start+url+end, 200
+
+@app.route("/elliott/")
+def elliott():
+  start = '<img src="'
+  url = url_for('static', filename='pure_elliott.jpg')
+  end = '">'
+  return start+url+end, 200
+
+@app.route("/studentcastle/")
+def studentcastle():
+  start = '<img src="'
+  url = url_for('static', filename='student_castle.jpg')
+  end = '">'
+  return start+url+end, 200
+
+if __name__ == "__main__":
   app.run(host='0.0.0.0', debug=True)
 
