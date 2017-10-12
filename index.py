@@ -19,7 +19,7 @@ def homepage():
 <body style="width: auto; margin: auto;">
   <h1>Private accommodation for students in Edinburgh.</h1>
   <h2>Arran House</h2>
-  <img src="">
+  <img src="https://github.com/thusnapier/huskova_tatiana_set09103_coursework1/blob/master/static/arran_house.jpg">
 </body>
 """
 
