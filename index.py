@@ -14,7 +14,7 @@ def homepage():
 <!DOCTYPE html>
 <heIad>
   <title>Coursework 1 - 40207956</title>
-  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./static/style.css">
 </head>
 <body style="width: auto; margin: auto;">
   <h1>Private accommodation for students in Edinburgh.</h1>
