@@ -1,7 +1,7 @@
 # SET09103 - Advanced Web Technologies - Coursework 1 
 # Student: 40207956
 
-from flask import Flask, url_for, abort
+from flask import Flask, url_for, abort, jsonify
 app = Flask(__name__)
 
 @app.errorhandler(404)
