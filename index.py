@@ -30,7 +30,7 @@ def homepage():
   <img src="static/iqfountainbridge.jpg" style="width:300px;height:200px;">
   <h2><a href="localhost:5000/iqgrove/">iQ Grove</a></h2>
   <img src="static/iqgrove.jpg" style="width:300px;height:200px;">
-  <h2>>a href="localhost:5000/mcdonald/">McDonald Road</a></h2>
+  <h2><a href="localhost:5000/mcdonald/">McDonald Road</a></h2>
   <img src="static/mcdonald.jpg" style="width:300px;height:200px;">
   <h2><a href="localhost:5000/millhouse/>Mill House</a></h2>
   <img src="static/mill_house.jpg" style="width:300px;height:200px;">
