@@ -18,31 +18,31 @@ def homepage():
 </head>
 <body style="width: auto; margin: auto;">
   <h1>Private accommodation for students in Edinburgh.</h1>
-  <h2>Arran House</h2>
+  <h2><a href="localhost:5000/arran_house/">Arran House</a></h2>
   <img src="static/arran_house.jpg" style="width:300px;height:200px;">
-  <h2>Canal Point</h2>
+  <h2><a href="localhost:5000/canal_point/">Canal Point</a></h2>
   <img src="static/canal_point.jpg" style="width:300px;height:200px;">
-  <h2>Gateaway Apartments</h2>
+  <h2><a href="localhost:5000/gateaway/">Gateaway Apartments</a></h2>
   <img src="static/gateaway_apartments.jpg" style="width:300px;height:200px;">
-  <h2>Haddington Place</h2>
+  <h2><a href="localhost:5000/haddington/>Haddington Place</a></h2>
   <img src="static/haddington_place.jpg" style="width:300px;height:200px;">
-  <h2>iQ Fountainbridge</h2>
+  <h2><a href="localhost:5000/iqfountain/">iQ Fountainbridge</a></h2>
   <img src="static/iqfountainbridge.jpg" style="width:300px;height:200px;">
-  <h2>iQ Grove</h2>
+  <h2><a href="localhost:5000/iqgrove/">iQ Grove</a></h2>
   <img src="static/iqgrove.jpg" style="width:300px;height:200px;">
-  <h2>McDonald Road</h2>
+  <h2>>a href="localhost:5000/mcdonald/">McDonald Road</a></h2>
   <img src="static/mcdonald.jpg" style="width:300px;height:200px;">
-  <h2>Mill House</h2>
+  <h2><a href="localhost:5000/millhouse/>Mill House</a></h2>
   <img src="static/mill_house.jpg" style="width:300px;height:200px;">
-  <h2>New Park</h2>
+  <h2><a href="localhost:5000/newpark/>New Park</a></h2>
   <img src="static/new_park.jpg" style="width:300px;height:200px;">
-  <h2>Nido Haymarket</h2>
+  <h2><a href="localhost:5000/nido/">Nido Haymarket</a></h2>
   <img src="static/nido.jpg" style="width:300px;height:200px;">
-  <h2>Potterrow</h2>
+  <h2><a href="localhost:5000/potterrow/">Potterrow</a></h2>
   <img src="static/potterrow.jpg" style="width:300px;height:200px;">
-  <h2>Pure Elliott House</h2>
+  <h2><a href="localhost:5000/elliott/">Pure Elliott House</a></h2>
   <img src="static/pure_elliott.jpg" style="width:300px;heigth:200px;">
-  <h2>Student Castle</h2>
+  <h2><a href="localhost:5000/studentcastle/">Student Castle</a></h2>
   <img src="static/student_castle.jpg" style="width:300px;height:200px;">
 </body>
 """
