@@ -1,6 +1,7 @@
 {
-   "Arran House": [
+   "1": [
      {
+	   "Name": "Arran House",
 	   "Price": "£146-£270",
 	   "Address": "5 Drysdale Road, Edinburgh, EH3 9QJ",
 	   "Rooms": "Double, Studio",
@@ -11,8 +12,9 @@
 	   "Extras": "Free breakfast"
 	 }    
    ],
-   "Canal Point": [
+   "2": [
      {
+	   "Name": "Canal Point",
 	   "Price": "£146-£260",
 	   "Address": "22 West Tollcross, Edinburgh, EH3 9QW",
 	   "Rooms": "Single, Double, Studio",
@@ -23,8 +25,9 @@
 	   "Extras": "Free breakfast, TV"
 	 }
    ],
-   "Gateaway Apartments": [
+   "3": [
      {
+	   "Name": "Gateaway Apartments",
 	   "Price": "£155",
 	   "Address": "31 Montgomery Street, Edinburgh, EH7 5JA",
 	   "Rooms": "Double, Studio",
@@ -35,8 +38,9 @@
 	   "Extras": "Gym, Cinema, Study space"
 	 }
    ],
-  "Haddington Place": [
+  "4": [
      {
+	   "Name": "Haddington Place",
 	   "Price": "£160",
 	   "Address": "Haddington Place, Edinburgh, EH7 4AG",
 	   "Rooms": "Double, Studio",
@@ -47,8 +51,9 @@
 	   "Extras": "Gym, Study space, TV"
 	 }
    ],
-   "iQ Fountainbridge": [
+   "5": [
      {
+	   "Name": "iQ Fountainbridge",
 	   "Price": "£133",
 	   "Address": "114 Dundee Street, Edinburgh, EH3 8AA",
 	   "Rooms": "Double, Studio",
@@ -59,8 +64,9 @@
 	   "Extras": "Gym, Games room, TV"
 	 }
    ],
-   "iQ Grove": [
+   "6": [
      {
+	   "Name": "iQ Grove",
 	   "Price": "£145",
 	   "Address": "69 Grove Street, Edinburgh, EH3 8FD",
 	   "Rooms": "Double, Studio",
@@ -71,8 +77,9 @@
 	   "Extras": "Gym, Games room, TV"
 	 }
    ],
-   "McDonald Road Studios": [
+   "7": [
      {
+	   "Name": "McDonald Road Studios",
 	   "Price": "£129",
 	   "Address": "6 McDonald Road, Edinburgh, EH7 4GT",
 	   "Rooms": "Double",
@@ -83,8 +90,9 @@
 	   "Extras": "Games room, TV"
 	 }
    ],
-   "The Mill House": [
+   "8": [
      {
+	   "Name": "The Mill House",
 	   "Price": "£142",
 	   "Address": "392 Gorgie Road, Edinburgh, EH11 2RN",
 	   "Rooms": "Double, Studio",
@@ -95,8 +103,9 @@
 	   "Extras": "Gym, Study room, TV"
 	 }
    ],
-   "New Park": [
+   "9": [
      {
+	   "Name": "New Park",
 	   "Price": "£131",
 	   "Address": "Bothwell Street, Edinburgh, EH7 5PX",
 	   "Rooms": "Double, Studio",
@@ -107,8 +116,9 @@
 	   "Extras": "Games room, TV"
 	 }
    ],
-   "Nido Haymarket": [
+   "10": [
      {
+	   "Name": "Nido Haymarket",
 	   "Price": "£139",
 	   "Address": "5 West Park, Edinburgh, EH11 2EE",
 	   "Rooms": "Single, Double, Studio",
@@ -119,8 +129,9 @@
 	   "Extras": "Housekeeping, Games room, TV"
 	 }
    ],
-   "Potterrow": [
+   "11": [
      {
+	   "Name": "Potterrow",
 	   "Price": "£154",
 	   "Address": "16-20 Potterrow, Edinburgh, EH8 9PL",
 	   "Rooms": "Double",
@@ -131,8 +142,9 @@
 	   "Extras": "Housekeeping"
 	 }
    ],
-   "Pure Elliott House": [
+   "12": [
      {
+	   "Name": "Pure Elliott House",
 	   "Price": "£160",
 	   "Address": "8-10 Hillside Crescent, Edinburgh, EH7 5EA",
 	   "Rooms": "Studio",
@@ -143,8 +155,9 @@
 	   "Extras": "TV"
 	 }
    ],
-   "Student Castle Edinburgh": [
+   "13": [
      {
+	   "Name": "Student Castle Edinburgh,
 	   "Price": "£189",
 	   "Address": "199 Causewayside, Edinburgh, EH9 1PH",
 	   "Rooms": "Studio",
