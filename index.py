@@ -2,6 +2,7 @@
 # Student: 40207956
 
 from flask import Flask, url_for, abort, jsonify
+import json
 app = Flask(__name__)
 
 @app.errorhandler(404)
@@ -51,8 +52,10 @@ def homepage():
 def arran_house():
   start = '<img src="'
   url = url_for('static', filename='arran_house.jpg')
-  end = '">'
-  return start+url+end, 200
+  end = '">',
+  d = json.load(open("flatsdata.json"))
+  print d["Arran House"]
+  return start+url+end+d, 200
 
 @app.route("/canal_point/")
 def canal_point():
