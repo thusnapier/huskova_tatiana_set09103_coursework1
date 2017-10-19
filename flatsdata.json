@@ -1,5 +1,5 @@
 {
-   "1": [
+   "arran_house": [
      {
 	   "Name": "Arran House",
 	   "Price": "£146-£270",
@@ -12,7 +12,7 @@
 	   "Extras": "Free breakfast"
 	 }    
    ],
-   "2": [
+   "canal_point": [
      {
 	   "Name": "Canal Point",
 	   "Price": "£146-£260",
@@ -25,7 +25,7 @@
 	   "Extras": "Free breakfast, TV"
 	 }
    ],
-   "3": [
+   "gateaway": [
      {
 	   "Name": "Gateaway Apartments",
 	   "Price": "£155",
@@ -38,7 +38,7 @@
 	   "Extras": "Gym, Cinema, Study space"
 	 }
    ],
-  "4": [
+  "haddington": [
      {
 	   "Name": "Haddington Place",
 	   "Price": "£160",
@@ -51,7 +51,7 @@
 	   "Extras": "Gym, Study space, TV"
 	 }
    ],
-   "5": [
+   "iqfountain": [
      {
 	   "Name": "iQ Fountainbridge",
 	   "Price": "£133",
@@ -64,7 +64,7 @@
 	   "Extras": "Gym, Games room, TV"
 	 }
    ],
-   "6": [
+   "iqgrove": [
      {
 	   "Name": "iQ Grove",
 	   "Price": "£145",
@@ -77,7 +77,7 @@
 	   "Extras": "Gym, Games room, TV"
 	 }
    ],
-   "7": [
+   "mcdonald": [
      {
 	   "Name": "McDonald Road Studios",
 	   "Price": "£129",
@@ -90,7 +90,7 @@
 	   "Extras": "Games room, TV"
 	 }
    ],
-   "8": [
+   "millhouse": [
      {
 	   "Name": "The Mill House",
 	   "Price": "£142",
@@ -103,7 +103,7 @@
 	   "Extras": "Gym, Study room, TV"
 	 }
    ],
-   "9": [
+   "newpark": [
      {
 	   "Name": "New Park",
 	   "Price": "£131",
@@ -116,7 +116,7 @@
 	   "Extras": "Games room, TV"
 	 }
    ],
-   "10": [
+   "nido": [
      {
 	   "Name": "Nido Haymarket",
 	   "Price": "£139",
@@ -129,7 +129,7 @@
 	   "Extras": "Housekeeping, Games room, TV"
 	 }
    ],
-   "11": [
+   "potterrow": [
      {
 	   "Name": "Potterrow",
 	   "Price": "£154",
@@ -142,7 +142,7 @@
 	   "Extras": "Housekeeping"
 	 }
    ],
-   "12": [
+   "elliott": [
      {
 	   "Name": "Pure Elliott House",
 	   "Price": "£160",
@@ -155,7 +155,7 @@
 	   "Extras": "TV"
 	 }
    ],
-   "13": [
+   "studentcastle": [
      {
 	   "Name": "Student Castle Edinburgh,
 	   "Price": "£189",
