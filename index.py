@@ -13,13 +13,13 @@ def page_not_found(error):
 def homepage():
   return """
 <!DOCTYPE html>
-<heIad>
+<head>
   <title>Coursework 1 - 40207956</title>
   <link rel="stylesheet" href="./static/style.css">
 </head>
 <body style="width: auto; margin: auto;">
   <h1>Private accommodation for students in Edinburgh.</h1>
-  <h2><a href="localhost:5000/arran_house/">Arran House</a></h2>
+  <h2><a href="127.0.0.0:5000/arran_house/">Arran House</a></h2>
   <img src="static/arran_house.jpg" style="width:300px;height:200px;">
   <h2><a href="localhost:5000/canal_point/">Canal Point</a></h2>
   <img src="static/canal_point.jpg" style="width:300px;height:200px;">
@@ -48,14 +48,27 @@ def homepage():
 </body>
 """
 
+@app.route("/location/<name>")
+def location(name):
+  data = {}
+  with open('flatsdata.json') as infile:
+    data = json.load(infile)
+    infile.close()
+  print data[name]
+  return json.dumps(data[name]), 200
+
 @app.route("/arran_house/")
 def arran_house():
-  start = '<img src="'
-  url = url_for('static', filename='arran_house.jpg')
-  end = '">',
-  d = json.load(open("flatsdata.json"))
-  print d["Arran House"]
-  return start+url+end+d, 200
+ # start = '<img src="'
+ # url = url_for('static', filename='arran_house.jpg')
+ # end = '">',
+  data = {}
+  with open('flatsdata.json') as infile:
+    data = json.load(infile)
+    infile.close()
+  print data['arran_house']
+ # return start+url+end, 200
+  return json.dumps(data['arran_house']), 200 
 
 @app.route("/canal_point/")
 def canal_point():
