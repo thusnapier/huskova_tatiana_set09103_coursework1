@@ -10,7 +10,7 @@ def page_not_found(error):
   return "Page not found!", 404
 
 @app.route("/")
-def homepage(Name=None, Price=None):
+def homepage():
   return render_template('template.html'), 200
 
 @app.route("/<name>")
@@ -20,19 +20,18 @@ def location(name):
     data = json.load(infile)
     infile.close()
   print data[name]
-  return json.dumps(data[name]), 200
+  return render_template('template.html', data=data), json.dumps(data[name]), 200
 
 @app.route("/arran_house/")
 def arran_house():
- # start = '<img src="'
- # url = url_for('static', filename='arran_house.jpg')
- # end = '">',
+  # start = '<img src="'
+  # url = url_for('static', filename='arran_house.jpg')
+  # end = '">',
   data = {}
   with open('flatsdata.json') as infile:
     data = json.load(infile)
     infile.close()
-  print data['arran_house']
- # return start+url+end, 200
+  #return start+url+end, 200
   return json.dumps(data['arran_house']), 200 
 
 @app.route("/gateaway/")
