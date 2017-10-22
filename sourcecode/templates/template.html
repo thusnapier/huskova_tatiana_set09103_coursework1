@@ -1,9 +1,21 @@
-<!DOCTYPE html>
+<!doctype html>
   <head>
+    <title>Coursework 1</title>
   </head>
-
   <body>
-    <h1>{{Name}}</h1>
-    <h3>{{Price}}</h3>
+    <ul>
+      {% for Name in data %}
+       <li>{{ Name }}</li>
+      {% endfor %}
+       <!--<li>{{ Price }}</li>
+       <li>{{ Address }}</li>
+       <li>{{ Rooms }}</li>
+       <li>{{ Bathroom }}</li>
+       <li>{{ Occupancy }}</li>
+       <li>{{ Catering }}</li>
+       <li>{{ Tenancy }}</li>
+       <li>{{ Extras }}</li>
+      {% endfor %}-->
+    </ul>
   </body>
 </html>
