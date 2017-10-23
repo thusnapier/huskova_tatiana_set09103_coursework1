@@ -5,13 +5,55 @@ from flask import Flask, url_for, abort, jsonify, render_template
 import json
 app = Flask(__name__)
 
+#Setup error handler route
 @app.errorhandler(404)
 def page_not_found(error):
   return "Page not found!", 404
 
+#Setup homepage route localhost:5000
 @app.route("/")
 def homepage():
-  return render_template('template.html'), 200
+  #A list of halls ina an array
+  halls = ['Arran House',
+           'Canal Point',
+           'Gateaway Apartments',
+           'Haddington Place',
+           'iQ Fountainbridge',
+           'iQ Grove',
+           'McDonald Road Studios',
+           'The Mill House',
+           'New Park',
+           'Nido Haymarket',
+           'Potterrow',
+           'Pure Elliott House',
+           'Student Castle Edinburgh']
+
+  #Details of each hall in a string
+  info = """{
+        'Arran House': { 'price': 146-270, 'address': 5 Drysdale Road EH3
+        9QJ },
+        'Canal Point': [{ 'price': 146-260, 'address': 22 West Tollcross EH3
+        9QW }],
+        'Gateaway Apartments': [{ 'price': 155, 'address': 31 Montgomery Street
+        EH7 5JA }],
+        'Haddington Place': [{ 'price': 160, 'address': Haddington Place EH7
+        4AG }],
+        'iQ Fountainbridge': [{ 'price': 133, 'address': 114 Dundee Street EH3
+        8AA }],
+        'iQ Grove': [{ 'price': 145, 'address': 69 Grove Street EH3 8FD }],
+        'McDonald Road Studios': [{ 'price': 129, 'address': 6 McDonald Road EH7
+        4GT }],
+        'The Mill House': [{ 'price': 142, 'address': 392 Gorgie Road EH11 2RN
+        }],
+        'New Park': [{ 'price': 131, 'address': Bothwell Street EH7 5PX }],
+        'Nido Haymarket': [{ 'price': 139, 'address': 5 West Park EH11 2EE }],
+        'Potterrow': [{ 'price': 154, 'address': 16-20 Potterrow EH8 9PL }],
+        'Pure Elliott House': [{ 'price': 160, 'address': 8-10 Hillside Crescent 
+        EH7 5EA }],
+        'Student Castle Edinburgh': [{ 'price': 189, 'address': 199 Causewayside
+        EH9 1PH }],
+        }"""
+  return render_template('template.html', halls=halls, info=info), 200
 
 @app.route("/<name>")
 def location(name):
@@ -20,7 +62,7 @@ def location(name):
     data = json.load(infile)
     infile.close()
   print data[name]
-  return render_template('template.html', data=data), json.dumps(data[name]), 200
+  return json.dumps(data[name]), 200
 
 @app.route("/arran_house/")
 def arran_house():
