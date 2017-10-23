@@ -3,19 +3,12 @@
     <title>Coursework 1</title>
   </head>
   <body>
+    {% for hall in halls %}
     <ul>
-      {% for Name in data %}
-       <li>{{ Name }}</li>
-      {% endfor %}
-       <!--<li>{{ Price }}</li>
-       <li>{{ Address }}</li>
-       <li>{{ Rooms }}</li>
-       <li>{{ Bathroom }}</li>
-       <li>{{ Occupancy }}</li>
-       <li>{{ Catering }}</li>
-       <li>{{ Tenancy }}</li>
-       <li>{{ Extras }}</li>
-      {% endfor %}-->
+      <li>{{ hall }}</li>
+      <li>{{ info['price'] }}</li>
+      <li>{{ info['address'] }}</li>
     </ul>
+    {% endfor %}
   </body>
 </html>
