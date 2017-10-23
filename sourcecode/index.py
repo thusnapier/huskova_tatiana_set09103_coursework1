@@ -67,11 +67,23 @@ def homepage():
              },{
         'name':'iQ Grove',
         'price':'145',
-        'address':'69 Grove Street, EH3 8FD'
+        'address':'69 Grove Street, EH3 8FD',
+        'rooms':'Double, Studio',
+        'bathroom':'En-suite',
+        'occupnacy':'Single',
+        'catering':'Self',
+        'tenancy':'Long-term (43 weeks)',
+        'extras':'Gym, Games room, TV'
              },{
         'name':'McDonald Road Studios',
         'price':'129',
-        'address':'6 McDonald Road, EH7 4GT'
+        'address':'6 McDonald Road, EH7 4GT',
+        'rooms':'Double',
+        'bathroom':'En-suite',
+        'occupancy':'Single',
+        'catering':'Self',
+        'tenancy':'Long-term (42 weeks)',
+        'extras':'Games room, TV'
              },{
         'name':'The Mill House',
         'price':'142',
