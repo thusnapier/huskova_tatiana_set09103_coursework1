@@ -58,7 +58,12 @@ def homepage():
         'name':'iQ Fountainbridge',
         'price':'133',
         'address':'114 Dundee Street, EH3 8AA',
-        
+        'rooms':'Double, Studio',
+        'bathroom':'En-suite',
+        'occupancy':'Single, Couples',
+        'catering':'Self',
+        'tenancy':'Long-term (50 weeks)',
+        'extras':'Gym, Games room, TV'
              },{
         'name':'iQ Grove',
         'price':'145',
