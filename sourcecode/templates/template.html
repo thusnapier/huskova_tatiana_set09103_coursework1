@@ -2,12 +2,13 @@
   <head>
     <title>Coursework 1</title>
   </head>
+
   <body>
     {% for hall in halls %}
     <ul>
-      <li>{{ hall }}</li>
-      <li>{{ info['price'] }}</li>
-      <li>{{ info['address'] }}</li>
+      <li><h3>{{ hall }}</h3></li>
+      <li><b>Price:</b> {{ hall['price'] }}</li>
+      <li><b>Address:</b> {{ hall['address'] }}</li>  
     </ul>
     {% endfor %}
   </body>
