@@ -87,27 +87,63 @@ def homepage():
              },{
         'name':'The Mill House',
         'price':'142',
-        'address':'392 Gorgie Road, EH11 2RN'
+        'address':'392 Gorgie Road, EH11 2RN',
+        'rooms':'Double, Studio',
+        'bathroom':'En-suite',
+        'occupancy':'Single, Couples Studio only',
+        'catering':'Self',
+        'tenancy':'Long-term',
+        'extras':'Gym, Study room, TV'
              },{
         'name':'New Park',
         'price':'131',
-        'address':'Bothwell Street, EH7 5PX'
+        'address':'Bothwell Street, EH7 5PX',
+        'rooms':'Double, Studio',
+        'bathroom':'En-suite',
+        'occupancy':'Single',
+        'catering':'Self',
+        'tenancy':'Long-term',
+        'extras':'Games room, TV'
              },{
         'name':'Nido Haymarket',
         'price':'139',
-        'address':'5 West Park, EH11 2EE'
+        'address':'5 West Park, EH11 2EE',
+        'rooms':'Single, Double, Studio',
+        'bathroom':'En-suite',
+        'occupancy':'Sinlge',
+        'catering':'Self',
+        'tenancy':'Long-term',
+        'extras':'Housekeeping, Games room, TV'
              },{
         'name':'Potterrow',
         'price':'154',
-        'address':'16-20 Potterrow, EH8 9PL'
+        'address':'16-20 Potterrow, EH8 9PL',
+        'rooms':'Double',
+        'bathroom':'Shared',
+        'occupancy':'Single',
+        'catering':'Self',
+        'tenancy':'Long-term (51 weeks)',
+        'extras':'Housekeeping'
              },{
         'name':'Pure Elliott House',
         'price':'160',
-        'address':'8-10 Hillside Crescent, EH7 5EA'
+        'address':'8-10 Hillside Crescent, EH7 5EA',
+        'rooms':'Studio',
+        'bathroom':'En-suite',
+        'occupancy':'Single, Couples',
+        'catering':'Self',
+        'tenancy':'Long-term',
+        'extras':'TV'
              },{
         'name':'Student Castle Edinburgh',
         'price':'189',
-        'address':'199 Causewayside, EH9 1PH'
+        'address':'199 Causewayside, EH9 1PH',
+        'rooms':'Studio',
+        'bathroom':'En-suite',
+        'occupancy':'Single',
+        'catering':'Self',
+        'tenancy':'Long-term',
+        'extras':'Gym'
         }]
   return render_template('template.html', info=data), 200
 
