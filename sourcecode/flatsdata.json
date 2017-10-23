@@ -1,171 +1,134 @@
-{
-   "arran_house": [
-     {
-	   "Name": "Arran House",
-	   "Price": "£146-£270",
-	   "Address": "5 Drysdale Road, Edinburgh, EH3 9QJ",
-	   "Rooms": "Double, Studio",
-	   "Bathroom": "En-suite",
-	   "Occupancy": "Single, Couples Studio only",
-	   "Catering": "Self",
-	   "Tenancy": "Long-term",
-	   "Extras": "Free breakfast"
-	 }    
-   ],
-   "canal_point": [
-     {
-	   "Name": "Canal Point",
-	   "Price": "£146-£260",
-	   "Address": "22 West Tollcross, Edinburgh, EH3 9QW",
-	   "Rooms": "Single, Double, Studio",
-	   "Bathroom": "En-suite",
-	   "Occupancy": "Single, Couples Studio only",
-	   "Catering": "Self",
-	   "Tenancy": "Long-term",
-	   "Extras": "Free breakfast, TV"
+[
+    {
+	   "name":"Arran House",
+	   "price":"146-270",
+	   "address":"5 Drysdale Road, Edinburgh, EH3 9QJ",
+	   "rooms":"Double, Studio",
+	   "bathroom":"En-suite",
+	   "occupancy":"Single, Couples Studio only",
+	   "catering":"Self",
+	   "tenancy":"Long-term",
+	   "extras":"Free breakfast"
+	  },{
+	   "name":"Canal Point",
+	   "price":"146-260",
+	   "address":"22 West Tollcross, Edinburgh, EH3 9QW",
+	   "rooms":"Single, Double, Studio",
+	   "bathroom":"En-suite",
+	   "occupancy":"Single, Couples Studio only",
+	   "catering":"Self",
+	   "tenancy":"Long-term",
+	   "extras":"Free breakfast, TV"
+	  },{
+	   "name":"Gateaway Apartments",
+	   "price":"155",
+	   "address":"31 Montgomery Street, Edinburgh, EH7 5JA",
+	   "rooms":"Double, Studio",
+	   "bathroom":"En-suite",
+	   "occupancy":"Single, Couples",
+	   "catering":"Self",
+	   "tenancy":"Long-term (51 weeks)",
+	   "extras":"Gym, Cinema, Study space"
+	  },{
+	   "name":"Haddington Place",
+	   "price":"160",
+	   "address":"Haddington Place, Edinburgh, EH7 4AG",
+	   "rooms":"Double, Studio",
+	   "bathroom":"En-suite",
+	   "occupancy":"Single",
+	   "catering":"Self",
+	   "tenancy":"Long-term",
+	   "extras":"Gym, Study space, TV"
+	  },{
+	   "name":"iQ Fountainbridge",
+	   "price":"133",
+	   "address":"114 Dundee Street, Edinburgh, EH3 8AA",
+	   "rooms":"Double, Studio",
+	   "bathroom":"En-suite",
+	   "occupancy":"Single, Couples",
+	   "catering":"Self",
+	   "tenancy":"Long-term (50 weeks)",
+	   "extras":"Gym, Games room, TV"
+	  },{
+	   "name":"iQ Grove",
+	   "price":"145",
+	   "address":"69 Grove Street, Edinburgh, EH3 8FD",
+	   "rooms":"Double, Studio",
+	   "bathroom":"En-suite",
+	   "occupancy":"Single",
+	   "catering":"Self",
+	   "tenancy":"Long-term (43 weeks)",
+	   "extras":"Gym, Games room, TV"
+	  },{
+	   "name":"McDonald Road Studios",
+	   "price":"129",
+	   "address":"6 McDonald Road, Edinburgh, EH7 4GT",
+	   "rooms":"Double",
+	   "bathroom":"En-suite",
+	   "occupancy":"Single",
+	   "catering":"Self",
+	   "tenancy":"Long-term (42 weeks)",
+	   "extras":"Games room, TV"
+	  },{
+	   "name":"The Mill House",
+	   "price":"142",
+	   "address":"392 Gorgie Road, Edinburgh, EH11 2RN",
+	   "rooms":"Double, Studio",
+	   "bathroom":"En-suite",
+	   "occupancy":"Single, Couples Studio only",
+	   "catering":"Self",
+	   "tenancy":"Long-term",
+	   "extras":"Gym, Study room, TV"
+	  },{
+	   "name":"New Park",
+	   "price":"131",
+	   "address":"Bothwell Street, Edinburgh, EH7 5PX",
+	   "rooms":"Double, Studio",
+	   "bathroom":"En-suite",
+	   "occupancy":"Single",
+	   "catering":"Self",
+	   "tenancy":"Long-term",
+	   "extras":"Games room, TV"
+	  },{
+	   "name":"Nido Haymarket",
+	   "price":"139",
+	   "address":"5 West Park, Edinburgh, EH11 2EE",
+	   "rooms":"Single, Double, Studio",
+	   "bathroom":"En-suite",
+	   "occupancy":"Single",
+	   "catering":"Self",
+	   "tenancy":"Long-term",
+	   "extras":"Housekeeping, Games room, TV"
+	  },{
+	   "name":"Potterrow",
+	   "price":"154",
+	   "address":"16-20 Potterrow, Edinburgh, EH8 9PL",
+	   "rooms":"Double",
+	   "bathroom":"Shared",
+	   "occupancy":"Single",
+	   "catering":"Self",
+	   "tenancy":"Long-term (51 weeks)",
+	   "extras":"Housekeeping"
+	  },{
+	   "name":"Pure Elliott House",
+	   "price":"160",
+	   "address":"8-10 Hillside Crescent, Edinburgh, EH7 5EA",
+	   "rooms":"Studio",
+	   "bathroom":"En-suite",
+	   "occupancy":"Single, Couples",
+	   "catering":"Self",
+	   "tenancy":"Long-term",
+	   "extras":"TV"
+	  },{
+	   "name":"Student Castle Edinburgh",
+	   "price":"189",
+	   "address":"199 Causewayside, Edinburgh, EH9 1PH",
+	   "rooms":"Studio",
+	   "bathroom":"En-suite",
+	   "occupancy":"Single",
+	   "catering":"Self",
+	   "tenancy":"Long-term",
+	   "extras":"Gym"
 	 }
-   ],
-   "gateaway": [
-     {
-	   "Name": "Gateaway Apartments",
-	   "Price": "£155",
-	   "Address": "31 Montgomery Street, Edinburgh, EH7 5JA",
-	   "Rooms": "Double, Studio",
-	   "Bathroom": "En-suite",
-	   "Occupancy": "Single, Couples",
-	   "Catering": "Self",
-	   "Tenancy": "Long-term (51 weeks)",
-	   "Extras": "Gym, Cinema, Study space"
-	 }
-   ],
-  "haddington": [
-     {
-	   "Name": "Haddington Place",
-	   "Price": "£160",
-	   "Address": "Haddington Place, Edinburgh, EH7 4AG",
-	   "Rooms": "Double, Studio",
-	   "Bathroom": "En-suite",
-	   "Occupancy": "Single",
-	   "Catering": "Self",
-	   "Tenancy": "Long-term",
-	   "Extras": "Gym, Study space, TV"
-	 }
-   ],
-   "iqfountain": [
-     {
-	   "Name": "iQ Fountainbridge",
-	   "Price": "£133",
-	   "Address": "114 Dundee Street, Edinburgh, EH3 8AA",
-	   "Rooms": "Double, Studio",
-	   "Bathroom": "En-suite",
-	   "Occupancy": "Single, Couples",
-	   "Catering": "Self",
-	   "Tenancy": "Long-term (50 weeks)",
-	   "Extras": "Gym, Games room, TV"
-	 }
-   ],
-   "iqgrove": [
-     {
-	   "Name": "iQ Grove",
-	   "Price": "£145",
-	   "Address": "69 Grove Street, Edinburgh, EH3 8FD",
-	   "Rooms": "Double, Studio",
-	   "Bathroom": "En-suite",
-	   "Occupancy": "Single",
-	   "Catering": "Self",
-	   "Tenancy": "Long-term (43 weeks)",
-	   "Extras": "Gym, Games room, TV"
-	 }
-   ],
-   "mcdonald": [
-     {
-	   "Name": "McDonald Road Studios",
-	   "Price": "£129",
-	   "Address": "6 McDonald Road, Edinburgh, EH7 4GT",
-	   "Rooms": "Double",
-	   "Bathroom": "En-suite",
-	   "Occupancy": "Single",
-	   "Catering": "Self",
-	   "Tenancy": "Long-term (42 weeks)",
-	   "Extras": "Games room, TV"
-	 }
-   ],
-   "millhouse": [
-     {
-	   "Name": "The Mill House",
-	   "Price": "£142",
-	   "Address": "392 Gorgie Road, Edinburgh, EH11 2RN",
-	   "Rooms": "Double, Studio",
-	   "Bathroom": "En-suite",
-	   "Occupancy": "Single, Couples Studio only",
-	   "Catering": "Self",
-	   "Tenancy": "Long-term",
-	   "Extras": "Gym, Study room, TV"
-	 }
-   ],
-   "newpark": [
-     {
-	   "Name": "New Park",
-	   "Price": "£131",
-	   "Address": "Bothwell Street, Edinburgh, EH7 5PX",
-	   "Rooms": "Double, Studio",
-	   "Bathroom": "En-suite",
-	   "Occupancy": "Single",
-	   "Catering": "Self",
-	   "Tenancy": "Long-term",
-	   "Extras": "Games room, TV"
-	 }
-   ],
-   "nido": [
-     {
-	   "Name": "Nido Haymarket",
-	   "Price": "£139",
-	   "Address": "5 West Park, Edinburgh, EH11 2EE",
-	   "Rooms": "Single, Double, Studio",
-	   "Bathroom": "En-suite",
-	   "Occupancy": "Single",
-	   "Catering": "Self",
-	   "Tenancy": "Long-term",
-	   "Extras": "Housekeeping, Games room, TV"
-	 }
-   ],
-   "potterrow": [
-     {
-	   "Name": "Potterrow",
-	   "Price": "£154",
-	   "Address": "16-20 Potterrow, Edinburgh, EH8 9PL",
-	   "Rooms": "Double",
-	   "Bathroom": "Shared",
-	   "Occupancy": "Single",
-	   "Catering": "Self",
-	   "Tenancy": "Long-term (51 weeks)",
-	   "Extras": "Housekeeping"
-	 }
-   ],
-   "elliott": [
-     {
-	   "Name": "Pure Elliott House",
-	   "Price": "£160",
-	   "Address": "8-10 Hillside Crescent, Edinburgh, EH7 5EA",
-	   "Rooms": "Studio",
-	   "Bathroom": "En-suite",
-	   "Occupancy": "Single, Couples",
-	   "Catering": "Self",
-	   "Tenancy": "Long-term",
-	   "Extras": "TV"
-	 }
-   ],
-   "studentcastle": [
-     {
-	   "Name": "Student Castle Edinburgh",
-	   "Price": "£189",
-	   "Address": "199 Causewayside, Edinburgh, EH9 1PH",
-	   "Rooms": "Studio",
-	   "Bathroom": "En-suite",
-	   "Occupancy": "Single",
-	   "Catering": "Self",
-	   "Tenancy": "Long-term",
-	   "Extras": "Gym"
-	 }
-   ]
-}
+]
+
