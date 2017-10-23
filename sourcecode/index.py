@@ -52,7 +52,7 @@ def homepage():
         'bathroom':'En-suite',
         'occupancy':'Single',
         'catering':'Self',
-        'tenancy':'Long-term''
+        'tenancy':'Long-term',
         'extras':'Gym, Study space, TV'
              },{
         'name':'iQ Fountainbridge',
@@ -147,15 +147,17 @@ def homepage():
         }]
   return render_template('template.html', info=data), 200
 
-@app.route("/<name>")
-def location(name):
-  data = {}
-  with open('flatsdata.json') as infile:
-    data = json.load(infile)
-    infile.close()
-  print data[name]
-  return json.dumps(data[name]), 200
+#@app.route("/<name>")
+#def location(name):
+#  data = {}
+#  with open('flatsdata.json') as infile:
+#    data = json.load(infile)
+#    infile.close()
+#  print data[name]
+#  return json.dumps(data[name]), 200
 
+#Following routes lead to the picture of every single house separately
+#localhost:5000/nameofroute
 @app.route("/arran_house/")
 def arran_house():
   start = '<img src="'
