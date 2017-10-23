@@ -32,26 +32,26 @@ def homepage():
   info = """{
         'Arran House': { 'price': 146-270, 'address': 5 Drysdale Road EH3
         9QJ },
-        'Canal Point': [{ 'price': 146-260, 'address': 22 West Tollcross EH3
-        9QW }],
-        'Gateaway Apartments': [{ 'price': 155, 'address': 31 Montgomery Street
-        EH7 5JA }],
-        'Haddington Place': [{ 'price': 160, 'address': Haddington Place EH7
-        4AG }],
-        'iQ Fountainbridge': [{ 'price': 133, 'address': 114 Dundee Street EH3
-        8AA }],
-        'iQ Grove': [{ 'price': 145, 'address': 69 Grove Street EH3 8FD }],
-        'McDonald Road Studios': [{ 'price': 129, 'address': 6 McDonald Road EH7
-        4GT }],
-        'The Mill House': [{ 'price': 142, 'address': 392 Gorgie Road EH11 2RN
-        }],
-        'New Park': [{ 'price': 131, 'address': Bothwell Street EH7 5PX }],
-        'Nido Haymarket': [{ 'price': 139, 'address': 5 West Park EH11 2EE }],
-        'Potterrow': [{ 'price': 154, 'address': 16-20 Potterrow EH8 9PL }],
-        'Pure Elliott House': [{ 'price': 160, 'address': 8-10 Hillside Crescent 
-        EH7 5EA }],
-        'Student Castle Edinburgh': [{ 'price': 189, 'address': 199 Causewayside
-        EH9 1PH }],
+        'Canal Point': { 'price': 146-260, 'address': 22 West Tollcross EH3
+        9QW },
+        'Gateaway Apartments': { 'price': 155, 'address': 31 Montgomery Street
+        EH7 5JA },
+        'Haddington Place': { 'price': 160, 'address': Haddington Place EH7
+        4AG },
+        'iQ Fountainbridge': { 'price': 133, 'address': 114 Dundee Street EH3
+        8AA },
+        'iQ Grove': { 'price': 145, 'address': 69 Grove Street EH3 8FD },
+        'McDonald Road Studios': { 'price': 129, 'address': 6 McDonald Road EH7
+        4GT },
+        'The Mill House': { 'price': 142, 'address': 392 Gorgie Road EH11 2RN
+        },
+        'New Park': { 'price': 131, 'address': Bothwell Street EH7 5PX },
+        'Nido Haymarket': { 'price': 139, 'address': 5 West Park EH11 2EE },
+        'Potterrow': { 'price': 154, 'address': 16-20 Potterrow EH8 9PL },
+        'Pure Elliott House': { 'price': 160, 'address': 8-10 Hillside Crescent 
+        EH7 5EA },
+        'Student Castle Edinburgh': { 'price': 189, 'address': 199 Causewayside
+        EH9 1PH },
         }"""
   return render_template('template.html', halls=halls, info=info), 200
 
@@ -62,7 +62,7 @@ def location(name):
     data = json.load(infile)
     infile.close()
   print data[name]
-  return json.dumps(data[name]), 200
+  return json.dumps(data[name], sort_keys=True, ), 200
 
 @app.route("/arran_house/")
 def arran_house():
