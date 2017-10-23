@@ -4,9 +4,9 @@
   </head>
 
   <body>
-    {% for hall in halls %}
+    {% for hall in info %}
     <ul>
-      <li><h3>{{ hall }}</h3></li>
+      <li><h3>{{ hall['name'] }}</h3></li>
       <li><b>Price:</b> {{ hall['price'] }}</li>
       <li><b>Address:</b> {{ hall['address'] }}</li>  
     </ul>
