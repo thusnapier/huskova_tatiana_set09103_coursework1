@@ -17,55 +17,80 @@ def homepage():
   data =[{
         'name':'Arran House', 
         'price':'146-270',
-        'address':'5 Drysdale Road EH3 9QJ'
+        'address':'5 Drysdale Road, EH3 9QJ',
+        'rooms':'Double, Studio',
+        'bathroom':'En-suite',
+        'occupancy':'Single, Couples Studio only',
+        'catering':'Self',
+        'tenancy':'Long-term',
+        'extras':'Free breakfast'
              },{
         'name':'Canal Point', 
         'price':'146-260',
-        'address':'22 West Tollcross EH3 9QW'
+        'address':'22 West Tollcross, EH3 9QW',
+        'rooms':'Single, Double, Studio',
+        'bathroom':'En-suite',
+        'occupancy':'Single, Couples Studio only',
+        'catering':'Self',
+        'tenancy':'Long-term',
+        'extras':'Free breakfast, TV'
              },{
         'name':'Gateaway Apartments',
         'price':'155',
-        'address': '31 Montgomery Street EH7 5JA'
+        'address': '31 Montgomery Street, EH7 5JA',
+        'rooms':'Double, Studios',
+        'bathroom':'En-suite',
+        'occupancy':'Single, Couples',
+        'catering':'Self',
+        'tenancy':'Long-term (51 weeks)',
+        'extras':'Gym, Cinema, Study space'
              },{
         'name':'Haddington Place',
         'price':'160',
-        'address':'Haddington Place EH7 4AG'
+        'address':'Haddington Place, EH7 4AG',
+        'rooms':'Double, Studio',
+        'bathroom':'En-suite',
+        'occupancy':'Single',
+        'catering':'Self',
+        'tenancy':'Long-term''
+        'extras':'Gym, Study space, TV'
              },{
         'name':'iQ Fountainbridge',
         'price':'133',
-        'address':'114 Dundee Street EH3 8AA'
+        'address':'114 Dundee Street, EH3 8AA',
+        
              },{
         'name':'iQ Grove',
         'price':'145',
-        'address':'69 Grove Street EH3 8FD'
+        'address':'69 Grove Street, EH3 8FD'
              },{
         'name':'McDonald Road Studios',
         'price':'129',
-        'address':'6 McDonald Road EH7 4GT'
+        'address':'6 McDonald Road, EH7 4GT'
              },{
         'name':'The Mill House',
         'price':'142',
-        'address':'392 Gorgie Road EH11 2RN'
+        'address':'392 Gorgie Road, EH11 2RN'
              },{
         'name':'New Park',
         'price':'131',
-        'address':'Bothwell Street EH7 5PX'
+        'address':'Bothwell Street, EH7 5PX'
              },{
         'name':'Nido Haymarket',
         'price':'139',
-        'address':'5 West Park EH11 2EE'
+        'address':'5 West Park, EH11 2EE'
              },{
         'name':'Potterrow',
         'price':'154',
-        'address':'16-20 Potterrow EH8 9PL'
+        'address':'16-20 Potterrow, EH8 9PL'
              },{
         'name':'Pure Elliott House',
         'price':'160',
-        'address':'8-10 Hillside Crescent EH7 5EA'
+        'address':'8-10 Hillside Crescent, EH7 5EA'
              },{
         'name':'Student Castle Edinburgh',
         'price':'189',
-        'address':'199 Causewayside EH9 1PH'
+        'address':'199 Causewayside, EH9 1PH'
         }]
   return render_template('template.html', info=data), 200
 
@@ -80,15 +105,17 @@ def location(name):
 
 @app.route("/arran_house/")
 def arran_house():
-  # start = '<img src="'
-  # url = url_for('static', filename='arran_house.jpg')
-  # end = '">',
-  data = {}
-  with open('flatsdata.json') as infile:
-    data = json.load(infile)
-    infile.close()
-  #return start+url+end, 200
-  return json.dumps(data['arran_house']), 200 
+  start = '<img src="'
+  url = url_for('static', filename='arran_house.jpg')
+  end = '">'
+  return start+url+end, 200
+
+@app.route("/canal_point/")
+def canal_point():
+  start ='<img src="'
+  url = url_for('static', filename='canal_point.jpg')
+  end = '">'
+  return start+url+end, 200
 
 @app.route("/gateaway/")
 def gateaway():
