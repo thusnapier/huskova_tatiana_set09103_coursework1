@@ -53,7 +53,7 @@
 	   "catering":"Self",
 	   "tenancy":"Long-term (50 weeks)",
 	   "extras":"Gym, Games room, TV",
-     "image_uri":"iqfountainbridge.jpg"
+     "image_uri":"/static/iqfountainbridge.jpg"
 	  },{
 	   "name":"iQ Grove",
 	   "price":"145",
@@ -64,7 +64,7 @@
 	   "catering":"Self",
 	   "tenancy":"Long-term (43 weeks)",
 	   "extras":"Gym, Games room, TV",
-     "image_uri":"iqgrove.jpg"
+     "image_uri":"/static/iqgrove.jpg"
 	  },{
 	   "name":"McDonald Road Studios",
 	   "price":"129",
@@ -75,7 +75,7 @@
 	   "catering":"Self",
 	   "tenancy":"Long-term (42 weeks)",
 	   "extras":"Games room, TV",
-     "image_uri":"mcdonald.jpg"
+     "image_uri":"/static/mcdonald.jpg"
 	  },{
 	   "name":"The Mill House",
 	   "price":"142",
@@ -86,7 +86,7 @@
 	   "catering":"Self",
 	   "tenancy":"Long-term",
 	   "extras":"Gym, Study room, TV",
-     "image_uri":"mill_house.jpg"
+     "image_uri":"/static/mill_house.jpg"
 	  },{
 	   "name":"New Park",
 	   "price":"131",
@@ -97,7 +97,7 @@
 	   "catering":"Self",
 	   "tenancy":"Long-term",
 	   "extras":"Games room, TV",
-     "image_uri":"new_park.jpg"
+     "image_uri":"/static/new_park.jpg"
 	  },{
 	   "name":"Nido Haymarket",
 	   "price":"139",
@@ -108,7 +108,7 @@
 	   "catering":"Self",
 	   "tenancy":"Long-term",
 	   "extras":"Housekeeping, Games room, TV",
-     "image_uri":"nido.jpg"
+     "image_uri":"/static/nido.jpg"
 	  },{
 	   "name":"Potterrow",
 	   "price":"154",
@@ -119,7 +119,7 @@
 	   "catering":"Self",
 	   "tenancy":"Long-term (51 weeks)",
 	   "extras":"Housekeeping",
-     "image_uri":"potterrow.jpg"
+     "image_uri":"/static/potterrow.jpg"
 	  },{
 	   "name":"Pure Elliott House",
 	   "price":"160",
@@ -130,7 +130,7 @@
 	   "catering":"Self",
 	   "tenancy":"Long-term",
 	   "extras":"TV",
-     "image_uri":"pure_elliott.jpg"
+     "image_uri":"/static/pure_elliott.jpg"
 	  },{
 	   "name":"Student Castle Edinburgh",
 	   "price":"189",
@@ -141,7 +141,7 @@
 	   "catering":"Self",
 	   "tenancy":"Long-term",
 	   "extras":"Gym",
-     "image_uri":"student_castle.jpg"
+     "image_uri":"/static/student_castle.jpg"
 	 }
 ]
 
