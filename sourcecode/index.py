@@ -172,19 +172,19 @@ def location(name):
 #  end = '">'
 #  return start+url+end, 200
 
-@app.route("/canal_point/")
-def canal_point():
-  start ='<img src="'
-  url = url_for('static', filename='canal_point.jpg')
-  end = '">'
-  return start+url+end, 200
+#@app.route("/canal_point/")
+#def canal_point():
+#  start ='<img src="'
+#  url = url_for('static', filename='canal_point.jpg')
+#  end = '">'
+#  return start+url+end, 200
 
-@app.route("/gateaway/")
-def gateaway():
-  start = '<img src="'
-  url = url_for('static', filename='gateaway_apartments.jpg')
-  end = '">'
-  return start+url+end, 200
+#@app.route("/gateaway/")
+#def gateaway():
+#  start = '<img src="'
+#  url = url_for('static', filename='gateaway_apartments.jpg')
+#  end = '">'
+#  return start+url+end, 200
 
 @app.route("/haddington/")
 def haddington():

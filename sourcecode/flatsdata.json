@@ -9,7 +9,7 @@
 	   "catering":"Self",
 	   "tenancy":"Long-term",
 	   "extras":"Free breakfast",
-     "image_uri":"/static/nido.jpg"
+     "image_uri":"/static/arran_house.jpg"
 	  },{
 	   "name":"Canal Point",
 	   "price":"146-260",
@@ -19,7 +19,8 @@
 	   "occupancy":"Single, Couples Studio only",
 	   "catering":"Self",
 	   "tenancy":"Long-term",
-	   "extras":"Free breakfast, TV"
+	   "extras":"Free breakfast, TV",
+     "image_uri":"/static/canal_point.jpg"
 	  },{
 	   "name":"Gateaway Apartments",
 	   "price":"155",
@@ -29,7 +30,8 @@
 	   "occupancy":"Single, Couples",
 	   "catering":"Self",
 	   "tenancy":"Long-term (51 weeks)",
-	   "extras":"Gym, Cinema, Study space"
+	   "extras":"Gym, Cinema, Study space",
+     "image_uri":"/static/gateaway_apartments.jpg"
 	  },{
 	   "name":"Haddington Place",
 	   "price":"160",
@@ -39,7 +41,8 @@
 	   "occupancy":"Single",
 	   "catering":"Self",
 	   "tenancy":"Long-term",
-	   "extras":"Gym, Study space, TV"
+	   "extras":"Gym, Study space, TV",
+     "image_uri":"/static/haddington_place.jpg"
 	  },{
 	   "name":"iQ Fountainbridge",
 	   "price":"133",
@@ -49,7 +52,8 @@
 	   "occupancy":"Single, Couples",
 	   "catering":"Self",
 	   "tenancy":"Long-term (50 weeks)",
-	   "extras":"Gym, Games room, TV"
+	   "extras":"Gym, Games room, TV",
+     "image_uri":"iqfountainbridge.jpg"
 	  },{
 	   "name":"iQ Grove",
 	   "price":"145",
@@ -59,7 +63,8 @@
 	   "occupancy":"Single",
 	   "catering":"Self",
 	   "tenancy":"Long-term (43 weeks)",
-	   "extras":"Gym, Games room, TV"
+	   "extras":"Gym, Games room, TV",
+     "image_uri":"iqgrove.jpg"
 	  },{
 	   "name":"McDonald Road Studios",
 	   "price":"129",
@@ -69,7 +74,8 @@
 	   "occupancy":"Single",
 	   "catering":"Self",
 	   "tenancy":"Long-term (42 weeks)",
-	   "extras":"Games room, TV"
+	   "extras":"Games room, TV",
+     "image_uri":"mcdonald.jpg"
 	  },{
 	   "name":"The Mill House",
 	   "price":"142",
@@ -79,7 +85,8 @@
 	   "occupancy":"Single, Couples Studio only",
 	   "catering":"Self",
 	   "tenancy":"Long-term",
-	   "extras":"Gym, Study room, TV"
+	   "extras":"Gym, Study room, TV",
+     "image_uri":"mill_house.jpg"
 	  },{
 	   "name":"New Park",
 	   "price":"131",
@@ -89,7 +96,8 @@
 	   "occupancy":"Single",
 	   "catering":"Self",
 	   "tenancy":"Long-term",
-	   "extras":"Games room, TV"
+	   "extras":"Games room, TV",
+     "image_uri":"new_park.jpg"
 	  },{
 	   "name":"Nido Haymarket",
 	   "price":"139",
@@ -99,7 +107,8 @@
 	   "occupancy":"Single",
 	   "catering":"Self",
 	   "tenancy":"Long-term",
-	   "extras":"Housekeeping, Games room, TV"
+	   "extras":"Housekeeping, Games room, TV",
+     "image_uri":"nido.jpg"
 	  },{
 	   "name":"Potterrow",
 	   "price":"154",
@@ -109,7 +118,8 @@
 	   "occupancy":"Single",
 	   "catering":"Self",
 	   "tenancy":"Long-term (51 weeks)",
-	   "extras":"Housekeeping"
+	   "extras":"Housekeeping",
+     "image_uri":"potterrow.jpg"
 	  },{
 	   "name":"Pure Elliott House",
 	   "price":"160",
@@ -119,7 +129,8 @@
 	   "occupancy":"Single, Couples",
 	   "catering":"Self",
 	   "tenancy":"Long-term",
-	   "extras":"TV"
+	   "extras":"TV",
+     "image_uri":"pure_elliott.jpg"
 	  },{
 	   "name":"Student Castle Edinburgh",
 	   "price":"189",
@@ -129,7 +140,8 @@
 	   "occupancy":"Single",
 	   "catering":"Self",
 	   "tenancy":"Long-term",
-	   "extras":"Gym"
+	   "extras":"Gym",
+     "image_uri":"student_castle.jpg"
 	 }
 ]
 
