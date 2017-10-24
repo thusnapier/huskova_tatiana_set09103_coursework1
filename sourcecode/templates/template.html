@@ -7,18 +7,14 @@
 
   <body>
     <h2>Private accommodation for students in Edinburgh.</h2>
-    <p>To see pictures of rooms, please go to appropriate URL.</p>
+    <p>To see pictures of rooms and more information, please go to appropriate
+    URL of the house.</p>
     {% for hall in info %}
     <ul>
       <h3>{{ hall['name'] }}</h3>
-      <li><b>Price:</b> {{ hall['price'] }}</li>
-      <li><b>Address:</b> {{ hall['address'] }}</li>
-      <li><b>Rooms:</b> {{ hall['rooms'] }}</li>
-      <li><b>Bathroom:</b> {{ hall['bathroom'] }}</li>
-      <li><b>Occupancy:</b> {{ hall['occupancy'] }}</li>
-      <li><b>Catering:</b> {{ hall['catering'] }}</li>
-      <li><b>Tenancy:</b> {{ hall['tenancy'] }}</li>
-      <li><b>Extras:</b> {{ hall['extras'] }}</li>
+      <p><b>Price:</b> {{ hall['price'] }}</p>
+      <p><b>Address:</b> {{ hall['address'] }}</p>
+      <p> </p>
     </ul>
     {% endfor %}
   </body>
