@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+  <head>
+    <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet"
+    >
+    <title>Coursework 1</title>
+  </head>
+
+  <body>
+    <h2>Private accommodation for students in Edinburgh.</h2>
+    <p>To see pictures of rooms, please go to appropriate URL.</p>
+    <ul>
+      <h3>{{ details['name'] }}</h3>
+      <li><b>Price:</b> {{ details['price'] }}</li>
+      <li><b>Address:</b> {{ details['address'] }}</li>
+      <li><b>Rooms:</b> {{ details['rooms'] }}</li>
+      <li><b>Bathroom:</b> {{ details['bathroom'] }}</li>
+      <li><b>Occupancy:</b> {{ details['occupancy'] }}</li>
+      <li><b>Catering:</b> {{ details['catering'] }}</li>
+      <li><b>Tenancy:</b> {{ details['tenancy'] }}</li>
+      <li><b>Extras:</b> {{ details['extras'] }}</li>
+      <img src="{{ details['image_uri'] }}"></img>
+    </ul>
+  </body>
+</html>

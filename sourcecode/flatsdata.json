@@ -8,7 +8,8 @@
 	   "occupancy":"Single, Couples Studio only",
 	   "catering":"Self",
 	   "tenancy":"Long-term",
-	   "extras":"Free breakfast"
+	   "extras":"Free breakfast",
+     "image_uri":"/static/nido.jpg"
 	  },{
 	   "name":"Canal Point",
 	   "price":"146-260",

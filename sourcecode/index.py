@@ -147,23 +147,30 @@ def homepage():
         }]
   return render_template('template.html', info=data), 200
 
-#@app.route("/<name>")
-#def location(name):
-#  data = {}
-#  with open('flatsdata.json') as infile:
-#    data = json.load(infile)
-#    infile.close()
-#  print data[name]
-#  return json.dumps(data[name]), 200
+@app.route("/<name>/")
+def location(name):
+  data = {}
+  print(name)
+  with open('flatsdata.json') as infile:
+    data = json.load(infile)
+    infile.close()
+    details = None
+    for o in data:
+      formattedName = o['name']
+      formattedName = formattedName.replace(' ', '_')
+      formattedName = formattedName.lower()
+      if formattedName == name:
+        details = o
+  return render_template('details.html', details = details), 200
 
 #Following routes lead to the picture of every single house separately
 #localhost:5000/nameofroute
-@app.route("/arran_house/")
-def arran_house():
-  start = '<img src="'
-  url = url_for('static', filename='arran_house.jpg')
-  end = '">'
-  return start+url+end, 200
+#@app.route("/arran_house/")
+#def arran_house():
+#  start = '<img src="'
+#  url = url_for('static', filename='arran_house.jpg')
+#  end = '">'
+#  return start+url+end, 200
 
 @app.route("/canal_point/")
 def canal_point():

@@ -1,7 +1,7 @@
-<!doctype html>
+<!DOCTYPE html>
   <head>
     <link href="{{ url_for('static', filename='style.css') }}" rel="stylesheet"
-    />
+    >
     <title>Coursework 1</title>
   </head>
 
@@ -10,7 +10,7 @@
     <p>To see pictures of rooms, please go to appropriate URL.</p>
     {% for hall in info %}
     <ul>
-      <li><h3>{{ hall['name'] }}</h3></li>
+      <h3>{{ hall['name'] }}</h3>
       <li><b>Price:</b> {{ hall['price'] }}</li>
       <li><b>Address:</b> {{ hall['address'] }}</li>
       <li><b>Rooms:</b> {{ hall['rooms'] }}</li>
